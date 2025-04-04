@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+.alatmain{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.section1{
+    width: 55%;
+    background-image: url('alatbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+p{
+    color:white;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+}
+
+h6{
+    color:white;
+    font-size: 17px;
+    margin-top: 60%;
+    margin-left: 25rem;
+}
+
+#assist{
+    color:white;
+    font-size: 15px;
+    margin-left: 25rem;
+    margin-top: -2rem;
+}
+
+.fa-regular {
+    margin-left: 25rem;
+}
+
+
+.fa-solid {
+    margin-left: 8px;
+}
+
+.fa-brands {
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 30px;
+
+}
+
+.fa-brands:hover{
+    background-color: hsl(0, 52%, 58%);
+}
+
+.icon1 {
+    margin-left: 25rem;
+
+}
+
+
+.section2{
+    flex:0.8;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    margin-left: -10px;
+    margin-right: 6rem;
+}
+
+#alat2{
+    color:#ab2656;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+
+#alat2:hover{
+    text-decoration: underline;
+}
+
+#cbn{
+    margin-left:-0.8rem;
+    font-size: 15px;
+    color:#4d4d4d;
+}
+
+#image{
+    margin-bottom: -1.2rem;
+    margin-right: 1rem;
+}
+
+#image2{
+    margin-left: 0.5rem;
+    margin-top: -5rem;
+}
+
+label{
+    display:block;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    color:#4d4d4d;
+}
+
+#forget-password{
+    position: absolute;
+    margin-left: 30rem;
+    text-decoration: none;
+    color:#ab2656;
+    margin-top: 1rem;
+}
+
+.password{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    color:#ab0b4b;
+
+}
+
+input{
+    width:95%;
+    padding:0.7rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    color:#4d4d4d;
+    border:solid 1px #c1baba;
+}
+
+#Login{
+    width:100%;
+    background-color:#ab2656;
+    color:white;
+    padding:0.7rem;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor:pointer;
+    border: none;
+}
+/* 
+#login:hover{
+    background-color: #ab0b4b;
+} */
+
+#new{
+    margin-left: 13rem;
+    color:black;
+    font-weight: 80;
+
+}
+
+#signup{
+    color:#ab2656;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 2rm;
+}
+
+#signup:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border:solid 2px #ab0b4b;
+    margin:1rem;
+    width:8%;
+    margin-top:-0.5rem;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+
+
+
+
+

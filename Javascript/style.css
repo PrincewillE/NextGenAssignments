@@ -1,0 +1,27 @@
+button{
+    position: relative;
+    text-align: center;
+    color: white;
+    background: purple;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.n{
+background-image: url("images/1.JPG");
+
+}
+.e{
+    background-image: url("images/2.JPG");
+}
+.x{
+    background-image: url("images/3.JPG");
+}
+.t{
+    background-image: url("images/4.JPG");
+}

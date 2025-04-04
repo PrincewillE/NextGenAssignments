@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-text">
+            <h1>Welcome to Our Website!</h1>
+            <p>We're glad to have you here. Explore and enjoy!</p>
+            <button class="button">Learn More</button>
+        </div>
+        <div class="image-container">
+            <img src="prince.png" alt="Placeholder Image">
+        </div>
+    </div>
+
+    <!-- Styling -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            background-color: rgb(255, 85, 0);
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .welcome-text {
+            font-size: 24px;
+            color: #333;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+
+    <script src="./assign.js"></script>
+</body>
+</html>

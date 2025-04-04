@@ -1,0 +1,116 @@
+
+
+
+header{
+
+}
+.container {
+    
+    text-align: center;
+  
+    
+
+}
+
+img {
+    margin-top: 40px;
+margin-bottom: 20px;
+width: 60px;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.form {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: gray;
+     width: 12%;
+    margin-left: 820PX;
+    background-color: rgb(235, 235, 243);
+  
+    
+}
+
+.but {
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    width: 230px;
+    color: white;
+    border: none;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list:hover {
+    cursor: pointer;
+}
+
+.a {
+    padding: 20px;
+}
+
+input {
+    width: 215px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: black;
+    margin-left: 0;
+    display: flex;
+}
+
+.forget {
+    margin-top: 0;
+    float: right;
+    color: rgb(74, 74, 230)
+    
+}
+
+.password {
+    margin-bottom: -17px;
+}
+
+/**This is the crreate account phase**/
+
+.next {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: gray;
+     width: 12%;
+    margin-left: 820PX;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.new {
+    display: flex;
+    margin-top: 2px;
+    padding-right: 5px;
+    
+}
+
+.create {
+    margin-top: 19px;
+    float: right;
+    margin-left: 4px;
+    text-decoration: none;
+    
+}
+
+.sign1 {
+    text-decoration: none;
+}
+
